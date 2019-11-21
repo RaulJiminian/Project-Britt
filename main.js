@@ -50,16 +50,15 @@ let dataScienceList = () => {
 
   for (let i = 0; i < DataScienceAcronyms.length; i++) {
     let currentObj = DataScienceAcronyms[i];
-
+    console.log(currentObj)
     let cardDiv = document.createElement('div');
-    cardDiv.class = `card`;
+    cardDiv.className = `card`;
     let faceOne = document.createElement('div');
-    faceOne.class = `face face1`;
+    faceOne.className = `face face1`;
     let infoOne = document.createElement('div');
-    infoOne.class = `content info1`;
+    infoOne.className = `content info1`;
 
     let line;
-    console.log(currentObj)
     for (let j = 2; j < 12; j++) {
 
       if (currentObj[j] !== '') {
@@ -69,7 +68,7 @@ let dataScienceList = () => {
     }
 
     let faceTwo = document.createElement('div');
-    faceTwo.class = `face face2 info2`;
+    faceTwo.className = `face face2 info2`;
     let title = document.createElement('h2');
     title.textContent = `${DataScienceAcronyms.title}`
 
