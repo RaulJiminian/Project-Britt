@@ -1,3 +1,5 @@
+/* Special thanks to Online Tutorials for Card CSS: https://www.youtube.com/watch?v=uXHTMLc6lqI&feature=youtu.be */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +13,14 @@ body {
   align-items: center;
   min-height: 100vh;
   background: #00d0ff;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.info1 {
+  margin-top: 95px
 }
 
 .container {
